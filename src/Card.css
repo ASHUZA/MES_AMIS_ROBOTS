@@ -1,0 +1,47 @@
+
+.box-robot{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row ;
+    justify-items: center;
+    justify-content: start;
+
+    
+}
+
+
+.box-item .card {
+  border-radius: .5rem;
+  background-color: #9eebcf;
+  padding: 1rem;
+ 
+}
+/* .box-item :hover{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  } */
+ 
+
+
+  
+   
+/* 
+<div class="row row-cols-1 row-cols-md-2 g-4 box-robot"> 
+  
+  
+
+      
+<Card src="https://robohash.org/20" Nom="ARMANDINE" texte="This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."/>
+<Card src="https://robohash.org/10" Nom="ARMANDINE" texte="This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."/>
+<Card src="https://robohash.org/2"  Nom="ARMANDINE" texte="This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."/>
+<Cad src="https://robohash.org/4"  Nom="ARMANDINE" texte="This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."/>
+ */

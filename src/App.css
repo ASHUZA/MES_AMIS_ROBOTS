@@ -1,38 +1,95 @@
+*,
+ ::before,
+ ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'sega';
+  src: url(./font/SEGA.TTF);
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+body{
+  background-color:#062b59;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content : space-evenly;
+  align-items: center;
+ 
+}
+
+
+h1{
+font-size: 3rem;
+margin-top: 10px;
+font-family: 'sega',  sans-serif;
+font-weight: 200;
+    color: #0ccac4;
+}
+
+.md-form{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.box-item{
+  
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.box-item{
+
+  /* background-color: #9eebcf; */
+    width: 280px;
+    height: 350px;
+
+    transition: width 1s ease-out 200ms;
+    transition: height 1s ease-out 200ms;
+
 }
+
+.box-item:hover {
+  
+    /* background-color: #9eebcf; */
+      width: 300px;
+      height: 370px;
+
+      
+  
+  
+}
+
+
+
+h2{
+  font-size: 1.5em;
+
+  font-family:sans-serif;
+  font-weight: bold;
+
+}
+.card{
+
+  background-color: rgb(238, 218, 218);
+}
+
+
